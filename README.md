@@ -46,8 +46,8 @@ Python is used for data acquisition, cleaning and modeling. Specific python libr
 <p align="center">
   <img width="700" height="400" src="./img/model_results.png">
 </p>
-* As seen from the results, "Sci-Fi" and "Western" got best prediction results, but "Drama", "Comedy" were among the worst.
+* As seen from the results, "Sci-Fi" and "Western" got best prediction results, but "Drama", "Comedy" were among the worst. Note drama and comedy also had the largest count of movies, so it looks like there is opportunity to better break down those genres into sub-categories that could yield better prediction results
 
 ## Conclusions
-* Genre categorization impacts the prediction results so more analysis on optimal categorization would be µMhelpful
+* Genre categorization impacts the prediction results so more analysis on optimal categorization would be helpful
 * Multi-label classification instead of multi-class classification is also a great next step to provide better insights for potential applications as movies often can belong to multiple genres
