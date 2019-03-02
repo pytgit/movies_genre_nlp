@@ -31,7 +31,7 @@ Python is used for data acquisition, cleaning and modeling. Specific python libr
 
 (See Jupyter notebook for steps 1-3: [(code here)](https://github.com/pytgit/movies_genre_nlp/blob/master/Movies%20-%20clean%20and%20feature%20extraction.ipynb) )
 
-5. Topic modeling is used to reduce the dimensionality of the bag of words to be used as classification features. Before topic modeling can be done, stopwords, punctuations, and entities were removed from the movie plot text. The text is also tokenized and lemmatized.
+5. Topic modeling is used to reduce the dimensionality of word features to be used in classification training. Before topic modeling can be done, stopwords, punctuations, and entities were removed from the movie plot text. The text is also tokenized and lemmatized.
 
 6. Both Non-negative Matrix Factorization (NMF) and Latent Semantic Analysis (LSA) topic modeling were tried. They gave similar results when used in supervised classification modeling later, but I decided to use NMF in the final model because the topics were more interpretable than the LSA ones. THE NMF yielded 25 topics were seemed to be representative of certain genres. For example:
    * Topic 1	(Romance): love, fall love, fall, marry, marriage, girl, meet, friend, wedding, story
