@@ -1,7 +1,7 @@
 # What genre is this movie? (An NLP Project)
 
 ## Overview
-We all love watching movies. It's helpful to use genre as a way to decide what movie to watch, without reading full movie descriptions. But it's not always easy to identify genre of a movie, without people watching or at least reading the description of a movie. What if there's a way to identify genre using natural language processing, based on movie plot? Possible applications could be to predict genre when there is none available. Perhaps more common though, is to help identify alternative applicable genres even when there is one identified.
+We all love watching movies. It's helpful to use genre as a way to decide what movie to watch, without reading full movie descriptions. But it's not always easy to identify genre of a movie. Even if one is already identified, it may not be one you agree with.  What if there's a way to identify genre using natural language processing, based on movie plot? Possible applications could be to predict genre when there is none available. Perhaps more common though, is to help identify alternative applicable genres even when there is one identified.
 
 ## Data Source
 [Wikipedia movie plots data from Kaggle](https://www.kaggle.com/jrobischon/wikipedia-movie-plots)
@@ -21,7 +21,7 @@ Python is used for data acquisition, cleaning and modeling. Specific python libr
 ## Methodology Used
 1. Genre clean-up:
    * Data initially had as many as 2264 genres. Many were either too granular or mis-spellings, so some clean-up is needed. For example, the following were re-mapped as "comedy" genre:
-   > ‘comedey', 'spoof', 'standup', 'slapstick', 'parody'
+     > ‘comedey', 'spoof', 'standup', 'slapstick', 'parody'
    * Low-count genre entries were removed (kept top 95%)
    * This clean-up process resulted in 12 genres
 
